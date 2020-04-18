@@ -6,7 +6,7 @@ import (
 )
 
 	func main() {
-		client, err := alidns.NewClientWithAccessKey("cn-hangzhou", "LTAI4FkqAiunRYKeHgtrHike", "YebnUl8wLSiCCBJova0oG3YGRA1pbv")
+		client, err := alidns.NewClientWithAccessKey("cn-hangzhou", "", "")
 
 		request := alidns.CreateAddDomainRecordRequest()
 		request.Scheme = "https"
